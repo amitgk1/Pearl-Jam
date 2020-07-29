@@ -1,0 +1,26 @@
+{
+  "name": "pearl-jam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitgk1/Pearl-Jam.git"
+  },
+  "author": "Amit Genish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitgk1/Pearl-Jam/issues"
+  },
+  "homepage": "https://github.com/amitgk1/Pearl-Jam#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongodb": "^3.5.9",
+    "node-html-parser": "^1.2.20"
+  }
+}
