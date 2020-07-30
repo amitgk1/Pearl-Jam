@@ -4,8 +4,8 @@ const { insertConcerts } = require("./db");
 
 https
   .get("https://pearljam.com/tour", (res) => {
-    // console.log("statusCode:", res.statusCode);
-    // console.log("headers:", res.headers);
+    console.log("statusCode:", res.statusCode);
+    console.log("headers:", res.headers);
 
     const body = [];
     res.on("data", (chunk) => {

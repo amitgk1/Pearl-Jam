@@ -22,8 +22,6 @@ const insertConcerts = (concerts) => {
       console.log("Created collection 'concerts' in db 'PearlJam'");
       db.collection(collection).insertMany(concerts, function (err, results) {
         assert.equal(null, err);
-        // assert.equal(3, results.result.n);
-        // assert.equal(3, results.ops.length);
         console.log("all the concerts have been inserted to the collection");
         client.close();
       });
@@ -39,7 +37,6 @@ const makeDBQuery = async (query) => {
     console.log("Connected successfully to server");
 
     const db = client.db(dbName);
-    // const query = { "shows.date": { $gte: new Date(Date.now()) } };
     const results = await db.collection(collection).find(query).toArray();
     console.log("results have been pulled from the db");
 
