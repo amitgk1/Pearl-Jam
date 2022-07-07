@@ -20,7 +20,7 @@
   "homepage": "https://github.com/amitgk1/Pearl-Jam#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "mongodb": "^3.5.9",
     "node-html-parser": "^1.2.20"
   }
